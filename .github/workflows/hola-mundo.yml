@@ -1,0 +1,11 @@
+name: Imprimir Hola Mundo
+run-name: ¡Mi primer action!
+on: [push]
+jobs:
+  hola-mundo-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Run script
+        run: node hola-mundo.js
