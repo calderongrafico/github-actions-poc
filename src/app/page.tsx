@@ -1,9 +1,11 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import { format } from "date-fns";
 
 export default function Home() {
   return (
     <div className={styles.page}>
+      <h1>{format(new Date(), "'Today is a' eeee")}</h1>
       <main className={styles.main}>
         <Image
           className={styles.logo}
