@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import dayjs from "dayjs";
 
 export default function Home() {
+
   return (
     <div className={styles.page}>
       <h1>{dayjs(new Date).format('[Today is] dddd')}</h1>
