@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "bundle": "ANALYZE=true next build"
+    "bundle-check": "ANALYZE=true next build"
   },
   "dependencies": {
     "@types/google-libphonenumber": "^7.4.30",
@@ -22,6 +22,7 @@
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "14.2.9",
-    "typescript": "^5"
+    "typescript": "^5",
+    "webpack-bundle-analyzer": "^4.10.2"
   }
 }

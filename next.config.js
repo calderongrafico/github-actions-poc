@@ -6,7 +6,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {};
 
-const withBundleAnalyzer = require("@next/bundle-analyzer")({
+const withBundleAnalyzer = require("./bundle-analyzer")({
   generateStatsFile: true,
   enabled: process.env.ANALYZE === "true",
 });
