@@ -10,8 +10,7 @@
     "bundle-check": "ANALYZE=true next build"
   },
   "dependencies": {
-    "@types/google-libphonenumber": "^7.4.30",
-    "google-libphonenumber": "^3.2.38",
+    "dayjs": "^1.11.13",
     "next": "14.2.9",
     "react": "^18",
     "react-dom": "^18"
